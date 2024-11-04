@@ -3,10 +3,10 @@
 
   <mat-sidenav #sidenav mode="push" [ngStyle]="{ width: '250px' }">
     <mat-toolbar>
-      <span id="menu">Menú</span>
+      <span>Menú</span>
       <span class="spacer"></span>
-      <button mat-icon-button (click)="sidenav.toggle()">
-        <mat-icon >menu</mat-icon>
+      <button  mat-icon-button (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
       </button>
 
     </mat-toolbar>
@@ -17,7 +17,7 @@
         [routerLink]="item.url"
         (click)="sidenav.toggle()"
       >
-        <mat-icon matListItemIcon>{{ item.icon }}</mat-icon>
+        <mat-icon  matListItemIcon>{{ item.icon }}</mat-icon>
         {{ item.label }}
       </mat-list-item>
     </mat-nav-list>
@@ -28,12 +28,12 @@
 
   <mat-toolbar class="toolbar">
     <button mat-icon-button (click)="sidenav.toggle()">
-      <mat-icon>menu</mat-icon>
+      <mat-icon id="menu">menu</mat-icon>
     </button>
 
     <span class="spacer"></span>
 
-    <button mat-button class="sesion">
+    <button id="buton" mat-button class="sesion">
       Cerrar sesión
     </button>
 

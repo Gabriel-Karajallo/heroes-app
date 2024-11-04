@@ -4,8 +4,9 @@ import { Component } from '@angular/core';
   selector: 'app-layout-page',
   templateUrl: './layout-page.component.html',
   styles: `
-    .toolbar{background-color: ;}
-
+    .toolbar{background-color: #640404;}
+    #menu{color: #ffff;}
+    #buton{color: #ffff;}
   `
 })
 export class LayoutPageComponent {
