@@ -3,18 +3,18 @@ import { CommonModule } from '@angular/common';
 import { MaterialModule } from '../material/material.module';
 
 import { HeroesRoutingModule } from './heroes-routing.module';
-import { HeroesPageComponent } from './pages/heroes-page/heroes-page.component';
 import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
 import { ListPageComponent } from './pages/list-page/list-page.component';
 import { NewPageComponent } from './pages/new-page/new-page.component';
 import { SearchPageComponent } from './pages/search-page/search-page.component';
 import { CardComponent } from './components/card/card.component';
 import { HeroImagePipe } from './pipes/hero-image.pipe';
+import { HeroPageComponent } from './pages/heroes-page/heroes-page.component';
 
 
 @NgModule({
   declarations: [
-    HeroesPageComponent,
+    HeroPageComponent,
     LayoutPageComponent,
     ListPageComponent,
     NewPageComponent,
