@@ -3,10 +3,10 @@
 
   <mat-sidenav #sidenav mode="push" [ngStyle]="{ width: '250px' }">
     <mat-toolbar>
-      <span>Menú</span>
+      <span id="menu">Menú</span>
       <span class="spacer"></span>
       <button mat-icon-button (click)="sidenav.toggle()">
-        <mat-icon>menu</mat-icon>
+        <mat-icon >menu</mat-icon>
       </button>
 
     </mat-toolbar>
@@ -25,14 +25,14 @@
   </mat-sidenav>
 
 
-  <mat-toolbar color="primary">
+  <mat-toolbar class="toolbar">
     <button mat-icon-button (click)="sidenav.toggle()">
       <mat-icon>menu</mat-icon>
     </button>
 
     <span class="spacer"></span>
 
-    <button mat-button>
+    <button mat-button class="sesion">
       Cerrar sesión
     </button>
 
