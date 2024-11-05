@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-layout-page',
   templateUrl: './layout-page.component.html',
   styles: `
-    .toolbar{background-color: #640404;}
+    .toolbar{background-color: black;}
     #menu{color: #ffff;}
     #buton{color: #ffff;}
   `

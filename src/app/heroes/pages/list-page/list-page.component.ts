@@ -5,7 +5,7 @@ import { Hero } from '../../interfaces/hero.interface';
 @Component({
   selector: 'app-list-page',
   templateUrl: './list-page.component.html',
-  styles: ``
+  styleUrl: './list-page.component.css',
 })
 export class ListPageComponent implements OnInit{
   public heroes: Hero[] = [];
